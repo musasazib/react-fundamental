@@ -31,6 +31,7 @@ function App() {
   );
 }
 
+// 3rd --------
 function Counter() {
   const [count, setCount] = useState(10);
   return(
@@ -41,6 +42,7 @@ function Counter() {
   );
 }
 
+// 4th ----------
 function Users() {
   const [users, setUsers] = useState([]);
   useEffect(()=>{
@@ -60,6 +62,7 @@ function Users() {
   );
 }
 
+// 2nd -----------
 function Product(props) {
   const productStyle={
     border: '2px solid red',
@@ -80,6 +83,7 @@ function Product(props) {
   );  
 }
 
+// 1st ---------
 function Person(props) {
   const personStyle={
     border: '2px solid red',
